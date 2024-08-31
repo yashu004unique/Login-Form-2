@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    background: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    color:azure;
+}
+.login-card{
+    background: black;
+    box-shadow: 0 0 20px whitesmoke;
+    border-radius: 5px;
+    height: 200px;
+    width: 250px;
+    align-items: center;
+    padding:10px;
+    transform: rotate(8deg);
+    overflow: hidden;    
+}
+.login-header{
+    font-size: 25px;
+    margin-bottom: 20px;   
+}
+.login-content{        
+    margin-bottom: 35px;  
+}
+.login-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.login-field span{
+    font-size: 32px;
+}
+.login-field input{
+    width: 100%;
+    height: 20px;
+    padding: 4px 0;
+    padding-left: 5px;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;    
+}
+.login-footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.login-footer button{
+    width: 80px;
+    padding: 3px 0;
+    background: crimson;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;        
+}
+.effect{
+    background: white;
+    width: 200px;
+    height: 25px;
+    transform: rotate(30deg);
+    margin-left: -45px;
+    margin-top: -15px;    
+}
+.login-footer button:hover{
+    scale: 1.1;
+}
+.login-footer button:active{
+    scale: 0.8;
+}
+.name{
+    font-size: 28px;
+    font-style: italic;
+    color: red;
+}
